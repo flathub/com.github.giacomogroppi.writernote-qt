@@ -6,9 +6,10 @@
   "command": "writernote",
   "finish-args": [
     "--device=dri",
-    "--socket=x11",
+    "--share=ipc",
+    "--socket=fallback-x11",
     "--socket=pulseaudio",
-    "--share=ipc"
+    "--socket=wayland"
   ],
   "cleanup": [
     "/lib/pkgconfig",
@@ -67,7 +68,7 @@
         {
           "type": "git",
           "url": "https://github.com/giacomogroppi/writernote-qt",
-          "commit": "c4bba675d91298fb3ae85f5594e91fdb00e74caa"
+          "commit": "aff0ab247560b03b273ddc67ee7c003612f0e02e"
         }
       ]
     }
