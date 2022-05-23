@@ -6,9 +6,10 @@
   "command": "writernote",
   "finish-args": [
     "--device=dri",
-    "--socket=x11",
+    "--share=ipc",
+    "--socket=fallback-x11",
     "--socket=pulseaudio",
-    "--share=ipc"
+    "--socket=wayland"
   ],
   "cleanup": [
     "/lib/pkgconfig",
