@@ -61,13 +61,13 @@
       "config-opts": [
         "-DCMAKE_BUILD_TYPE=Release",
         "-DFLATPAK_BUILD=ON",
-        "-DVERSION_SNAPCRAFT=4.0.1h"
+        "-DVERSION_SNAPCRAFT=4.0.2h"
       ],
       "sources": [
         {
           "type": "git",
           "url": "https://github.com/giacomogroppi/writernote-qt",
-          "commit": "c4bba675d91298fb3ae85f5594e91fdb00e74caa"
+          "commit": "402419da3e64cc64d9f760dd03fe8bfb03bbd74a"
         }
       ]
     }
