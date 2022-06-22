@@ -1,7 +1,7 @@
 {
   "app-id": "com.github.giacomogroppi.writernote-qt",
   "runtime": "org.kde.Platform",
-  "runtime-version": "6.2",
+  "runtime-version": "6.3",
   "sdk": "org.kde.Sdk",
   "command": "writernote",
   "finish-args": [
